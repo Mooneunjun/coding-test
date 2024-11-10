@@ -21,7 +21,9 @@
 
 출력 #1
 
-`HelloWorld!`
+## `HelloWorld!`
+
+---
 
 ```jsx
 const readline = require("readline");
