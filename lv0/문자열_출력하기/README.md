@@ -24,21 +24,22 @@
 `HelloWorld!`
 
 ```jsx
-const readline = require('readline');
+const readline = require("readline");
 const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
+  input: process.stdin,
+  output: process.stdout,
 });
 
 let input = [];
 
-rl.on('line', function (line) {
-    input = [line];
-}).on('close',function(){
-    const str = input[0];
-    console.log(str);
+rl.on("line", function (line) {
+  input = [line];
+}).on("close", function () {
+  const str = input[0];
+  console.log(str);
 });
 ```
 
 ### 코드 설명
-  `.on('close')`에서 입력받은 문자열을 `str` 변수로 저장하고 `console.log(str);`로 출력합니다.
+
+`.on('close')`에서 입력받은 문자열을 `str` 변수로 저장하고 `console.log(str);`로 출력합니다.
