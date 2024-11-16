@@ -1,15 +1,9 @@
-const readline = require("readline");
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+// 문자열 반복해서 출력하기
 
-let input = [];
-
-rl.on("line", function (line) {
-  input = line.split(" ");
-}).on("close", function () {
+function solution(input) {
   const str = input[0];
   const n = Number(input[1]);
   console.log(str.repeat(n));
-});
+}
+
+solution(["string", "5"]); // stringstringstringstringstring
