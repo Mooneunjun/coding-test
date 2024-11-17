@@ -11,7 +11,7 @@
 1. **폴더 구성** 🗂️
 
    - 난이도별로 `Lv0`, `Lv1`, `Lv2` 등의 폴더를 사용합니다.
-   - 각 폴더는 해당 레벨의 모든 문제 풀이 파일을 포함합니다.
+   - 각 폴더는 해당 레벨의 모든 문å제 풀이 파일을 포함합니다.
 
 2. **파일명 규칙** 📄
 
@@ -27,17 +27,17 @@
    명확하고 일관성 있게 커밋 메시지를 작성합니다. 커밋 메시지를 통해 문제 레벨과 주제를 쉽게 파악할 수 있게 합니다.
 
    - **새로운 풀이 추가**  
-     `➕ Add solution for lv0 - 문자열 출력하기`
+     `➕ Add solution for Lv0 - 문자열 출력하기`
 
    - **오타 수정 및 코드 개선**  
-     `🛠️ Fix typo in lv0 - 문자열 출력하기`  
-     `♻️ Refactor solution for lv0 - 문자열 출력하기`
+     `🛠️ Fix typo in Lv0 - 문자열 출력하기`  
+     `♻️ Refactor solution for Lv0 - 문자열 출력하기`
 
    - **파일 삭제**  
-     `🗑️ Remove outdated solution for lv0 - 문자열 출력하기`
+     `🗑️ Remove outdated solution for Lv0 - 문자열 출력하기`
 
    - **문서 업데이트**  
-     `📝 Update README for lv0 - 문자열 출력하기`
+     `📝 Update README for Lv0 - 문자열 출력하기`
 
 ## 🎯 목적 및 목표
 
