@@ -1,3 +1,4 @@
+// 홀짝 구분하기
 function solution(n) {
   console.log(n % 2 == 0 ? `${n} is even` : `${n} is odd`);
 }
