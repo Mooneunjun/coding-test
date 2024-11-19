@@ -37,20 +37,22 @@
 
 ```jsx
 function solution(my_string, overwrite_string, s) {
-  let answer = [...my_string];
-  answer.splice(s, overwrite_string.length, overwrite_string);
-
-  return answer.join("");
+  let answer = [...my_string]; // 문자열을 배열로 변환
+  answer.splice(s, overwrite_string.length, ...overwrite_string); // 특정 부분 삭제 후 덮어쓰기 (문자열 분해하여 삽입)
+  return answer.join(""); // 배열을 다시 문자열로 변환하여 반환
 }
 ```
 
 ### 코드 설명
 
 1. **문자열을 배열로 변환**
-   - `let answer = [...my_string];`는 `my_string`을 문자 하나씩 나누어 배열로 변환합니다.예: `"He11oWor1d"` → `['H', 'e', '1', '1', 'o', 'W', 'o', 'r', '1', 'd']`
-2. **배열의 특정 부분 대체**
-   - `answer.splice(s, overwrite_string.length, overwrite_string);`는 배열의 인덱스 `s`부터 `overwrite_string.length`만큼의 요소를 삭제하고, 그 자리에 `overwrite_string`을 삽입합니다.예: `s = 2`, `overwrite_string = "lloWorl"`일 때:`['H', 'e', '1', '1', 'o', 'W', 'o', 'r', '1', 'd']` → `['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']`
+   - `let answer = [...my_string];`는 `my_string`을 문자 하나씩 분해하여 배열로 변환합니다.예: `"He11oWor1d"` → `['H', 'e', '1', '1', 'o', 'W', 'o', 'r', '1', 'd']`
+2. **배열의 특정 부분 삭제 및 덮어쓰기**
+   - `answer.splice(s, overwrite_string.length, ...overwrite_string);`는 다음 작업을 수행합니다:
+     - **`s`부터 `overwrite_string.length`만큼 삭제**: 배열의 인덱스 `s`에서 `overwrite_string`의 길이만큼 요소를 삭제합니다.
+     - **덮어쓰기**: 삭제된 부분에 `overwrite_string`의 각 문자를 스프레드 연산자(`...`)를 사용해 삽입합니다.예:
+     - `s = 2`, `overwrite_string = "lloWorl"`일 때:`['H', 'e', '1', '1', 'o', 'W', 'o', 'r', '1', 'd']`→ `['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']`
 3. **배열을 문자열로 변환**
-   - `answer.join('');`를 사용하여 배열을 다시 문자열로 변환합니다.예: `['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']` → `"HelloWorld"`
+   - `answer.join("");`는 배열을 다시 문자열로 변환합니다.예: `['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']` → `"HelloWorld"`
 4. **결과 반환**
-   - 최종적으로 대체된 문자열을 반환합니다.예: `"HelloWorld"`
+   - 최종적으로 수정된 문자열을 반환합니다.예: `"HelloWorld"`
