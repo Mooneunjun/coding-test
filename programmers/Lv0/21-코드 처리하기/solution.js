@@ -16,3 +16,5 @@ function solution(code) {
 
   return ret === "" ? "EMPTY" : ret; // ret이 빈 문자열이라면 "EMPTY" 반환
 }
+
+console.log(solution("abc1abc1abc")); // 출력: "acbac"
