@@ -21,3 +21,7 @@ function solution(a, b, c) {
   // 세 수 모두 다를 경우
   return sum;
 }
+
+console.log(solution(2, 6, 1)); // 출력: 9
+console.log(solution(5, 3, 3)); // 출력: 473
+console.log(solution(4, 4, 4)); // 출력: 110592
