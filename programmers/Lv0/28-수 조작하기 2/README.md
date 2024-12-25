@@ -118,4 +118,4 @@ console.log(solution([0, 1, 0, 10, 0, 1, 0, 10, 0, -1, -2, -1])); // 출력: "ws
 
 4. **결과 반환**
 
-   `"wsdawsdassw"`
+   출력: `"wsdawsdassw"`
