@@ -4,4 +4,4 @@ function solution(my_string) {
   ).sort();
 }
 
-console.log(solution("banana"));
+console.log(solution("banana")); // [ 'a', 'ana', 'anana', 'banana', 'na', 'nana' ]
