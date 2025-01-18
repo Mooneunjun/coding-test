@@ -10,6 +10,12 @@
 
 [👉 JavaScript로 풀어보는 프로그래머스 코딩 테스트](https://velog.io/@moon_dev/series/JavaScript-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8)
 
+## 🔗 자세한 풀이와 설명
+
+문제 풀이와 관련된 상세한 설명은 아래 벨로그 시리즈에서 확인하실 수 있습니다:
+
+[👉 JavaScript로 풀어보는 프로그래머스 코딩 테스트](https://velog.io/@moon_dev/series/JavaScript-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8)
+
 ## 📂 리포지토리 구조
 
 리포지토리는 난이도별로 정리되어 있으며, 각 레벨의 문제 풀이 및 설명를 포함하고 있습니다.
