@@ -10,3 +10,5 @@ function solution(num_list) {
   // 홀수 번째 원소 합과 짝수 번째 원소 합 중 큰 값을 반환
   return Math.max(oddSum, evenSum);
 }
+
+console.log(solution([4, 2, 6, 1, 7, 6]));
