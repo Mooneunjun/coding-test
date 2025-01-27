@@ -11,4 +11,5 @@ function solution(num_list) {
   return Math.max(oddSum, evenSum);
 }
 
-console.log(solution([4, 2, 6, 1, 7, 6]));
+console.log(solution([4, 2, 6, 1, 7, 6])); // 17
+console.log(solution([-1, 2, 5, 6, 3])); // 8
