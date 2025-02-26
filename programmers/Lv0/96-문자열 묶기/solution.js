@@ -12,3 +12,4 @@ function solution(strArr) {
 }
 
 console.log(solution(1, ["a", "d"])); // 2
+console.log(solution(1, ["bc", "hi"])); // 2
