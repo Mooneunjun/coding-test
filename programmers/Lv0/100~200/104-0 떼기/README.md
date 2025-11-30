@@ -1,4 +1,4 @@
-> [0떼기](https://school.programmers.co.kr/learn/courses/30/lessons/181847)
+> [0 떼기](https://school.programmers.co.kr/learn/courses/30/lessons/181847)
 
 ### **문제 설명**
 
