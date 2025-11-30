@@ -2,12 +2,12 @@
 
 // 방법 1 // split 메서드 사용 합산
 function solution(num_str) {
-  return num_str.split("").reduce((acc, curr) => acc + Number(curr), 0);
+  return num_str.split("").reduce((a, c) => a + +c, 0);
 }
 
 // 방법 2 // 스프레드 연산자 사용 합산
 function solution(num_str) {
-  return [...num_str].reduce((acc, curr) => acc + Number(curr), 0);
+  return [...num_str].reduce((a, c) => a + +c, 0);
 }
 
 // 방법 3 // for-of 반복문 사용 합산
@@ -17,9 +17,9 @@ function solution(num_str) {
   return sum;
 }
 
-// 방법 4 // Array.from 메서드 사용 합산
+// // 방법 4 // Array.from 메서드 사용 합산
 function solution(num_str) {
-  return Array.from(num_str, Number).reduce((a, c) => a + c, 0);
+  return Array.from(num_str).reduce((a, c) => a + +c, 0);
 }
 
 console.log(solution("123456789")); // 45
