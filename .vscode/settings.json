@@ -1,0 +1,8 @@
+{
+  "code-runner.executorMap": {
+    "typescript": "/Users/Moon/.bun/bin/bun run $fullFileName"
+  },
+  "code-runner.runInTerminal": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true
+}
